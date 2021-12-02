@@ -19,10 +19,3 @@ If you are new to Purview, full instructions on how to get started can be found 
 The remainder of this document assumes that you have a working instance of Azure Purview, a Self Hosted Integration Runtime VM, an Azure Key Vault and the correct access rights to add data sources and perform scans. 
 ***
 
-## Understanding How Purview connects to Snowflake
-The Purview connector takes several parameters during setup to allow it to perform scans of the Snowflake metadata. * *USER NAME* * and * *PASSWORD* * are provided through integration with [Azure Key Vault](https://github.com/tayganr/purviewlab/blob/main/modules/module02b.md#1-key-vault-access-policy-1-grant-yourself-access). You are then able to specify the * *WAREHOUSE* * you wish to use and the * *DATABASE* * you’d like to scan. Optionally, you can further scope your scan to an individual schema.
-
-:warning:
->The important thing to note is that you cannot specify a ROLE for the connector to use. 
->When Purview connects, it will use the default role assigned to the USER. 
->You can find out a user’s default role by running the **SHOW ROLES;** command.
