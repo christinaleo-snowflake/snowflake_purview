@@ -19,3 +19,4 @@ If you are new to Purview, full instructions on how to get started can be found 
 The remainder of this document assumes that you have a working instance of Azure Purview, a Self Hosted Integration Runtime VM, an Azure Key Vault and the correct access rights to add data sources and perform scans. 
 ***
 
+## [Continue to setup instructions . . .](../modules/module00.md)
