@@ -1,5 +1,5 @@
 
-# Understanding How Purview connects to Snowflake
+# Understanding How Purview Connects to Snowflake
 The Purview connector takes several parameters during setup to allow it to perform scans of the Snowflake metadata. *USER NAME* and *PASSWORD* are provided through integration with [Azure Key Vault](https://github.com/tayganr/purviewlab/blob/main/modules/module02b.md#1-key-vault-access-policy-1-grant-yourself-access). You are then able to specify the *WAREHOUSE* you wish to use and the *DATABASE* you’d like to scan. Optionally, you can further scope your scan to an individual schema.
 
 >The important thing to note is that you are unable to specify a _ROLE_ for the connector to use. 
@@ -21,3 +21,5 @@ Some decisions need to be made about how you will manage Purview's access to Sno
 - What happens if the default role changes for the user you choose?
 
 One solution to simplify the process and still maintain [security best practice](https://docs.snowflake.com/en/user-guide/security-access-control-considerations.html) is to create a USER specifically for Purview, assign a ROLE to that USER that has the required rights to all the current and future objects of the database to be scanned, and make sure that ROLE is set as the USER's default role.
+
+>Code to set this up can be found [here](../code/reader_grants.sql)
