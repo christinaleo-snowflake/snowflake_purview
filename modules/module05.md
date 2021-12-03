@@ -18,3 +18,9 @@
 
 
 ![57DD0B36-2971-414C-879D-EF5945D7D746_4_5005_c](https://user-images.githubusercontent.com/83224172/144647703-713f4957-1786-495b-9110-aaccfa1822ee.jpeg)
+
+5. Click _Register_ at the bottom of the window. You should now be able to see the data source in the list.
+
+![54E6D4BC-3825-4E2F-BF82-BD6DD9129B2F_4_5005_c](https://user-images.githubusercontent.com/83224172/144648397-50197797-b569-4470-bd02-4d4df7a5a53a.jpeg)
+
+[Continue to next module . . .](../modules/module06.md)
