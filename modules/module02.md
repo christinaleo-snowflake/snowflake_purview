@@ -6,14 +6,15 @@
 
 ![0092E134-AF86-4EC6-ABA1-D8CFD8FEFD49_1_105_c](https://user-images.githubusercontent.com/83224172/144627007-4baaa709-41f6-40c3-9510-8d6196fe3b78.jpeg)
 
-2. Make sure that the PURVIEW user has the correct default role. Running `SHOW ROLES;` will reveal this information. There shoudld be a letter `Y` in the _is_default_ column of the output.
+2. Make sure that the PURVIEW user has the correct default role. When you log into Snowflake, the user and role is displayed in the top right corner. This should say PURVIEW and PURVIEW_READER. If it doesn't then the default role is not behaving correctly, and the scan will fail as a result.
 
-![F9B41722-5C16-4DFC-BAAD-5B14B04500C8_1_105_c](https://user-images.githubusercontent.com/83224172/144631155-96f34087-6a5e-4466-8d52-94f447f85fd3.jpeg)
+![62C08CDA-7434-4701-91AE-A31DF062C742](https://user-images.githubusercontent.com/83224172/144658072-14e784d7-b548-417c-bff3-59db1ad47f02.png)
 
-3. Check that you can switch to the `purview_reader` role, access the warehouse, and access the database.
+
+
+3. Check that you can access the warehouse and access the database.
 
 ```
-USE ROLE purview_reader;
 USE WAREHOUSE purview_wh;
 USE DATABASE citibike;
 ```
