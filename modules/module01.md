@@ -1,7 +1,9 @@
 
 ## Set Up Your Snowflake Environment
 
-For this lab, I will scan the CITIBIKE database in my Snowflake account. You will need to subsitute an appropriate database name for your account.
+For this lab, I will scan the CITIBIKE database in my Snowflake account. 
+
+You will need to subsitute an appropriate database name for your account.
 
 >The full script is available in the [code folder](../code/set_up_purview_access.sql) of this repository.
 
