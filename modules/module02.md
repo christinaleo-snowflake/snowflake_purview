@@ -1,4 +1,4 @@
-[⬅️ &nbsp;Previous Module](../modules/module01.md) - [HOME](/snowflake_purview) - [Next Module  ➡️](../modules/module03.md)
+[Previous Module](../modules/module01.md) - [HOME](../readme.md) - [Next Module](../modules/module03.md)
 ## Validate Your Setup
 
 #### 1. Log into your Snowflake account with the Purview User you created in the previous module.
