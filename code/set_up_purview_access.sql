@@ -1,4 +1,4 @@
-```sql
+```js
 //someone with account admin access must set up this part
 USE ROLE ACCOUNTADMIN;
 
