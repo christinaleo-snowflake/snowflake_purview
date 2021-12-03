@@ -1,7 +1,7 @@
 
 ## Set Up Your Snowflake Environment
 
-For this lab, we will scan the SNOW_SAMPLE database that is included with every Snowflake account.
+For this lab, I will scan the CITIBIKE database in my Snowflake account. You will need to subsitute an appropriate database name for your account.
 
 >You can [download the code here](https://github.com/christinaleo-snowflake/snowflake_purview/files/7650406/set_up_purview_access.txt).
 >It is also available in the [code folder](../code/set_up_purview_access.sql) of this repository.
@@ -49,18 +49,18 @@ GRANT ROLE purview_reader TO USER purview;
 #### 4. Grant reader rights to the database objects.
 ```
 //grant reader access to all the database structures that purview can currently scan
-GRANT USAGE ON ALL SCHEMAS IN DATABASE snow_sample TO role purview_reader;
-GRANT USAGE ON ALL FUNCTIONS IN DATABASE snow_sample TO role purview_reader;
-GRANT USAGE ON ALL PROCEDURES IN DATABASE snow_sample TO role purview_reader;
-GRANT SELECT ON ALL TABLES IN DATABASE snow_sample TO role purview_reader;
-GRANT SELECT ON ALL VIEWS IN DATABASE snow_sample TO role purview_reader;
-GRANT USAGE, READ on ALL STAGES IN DATABASE snow_sample TO role purview_reader;
+GRANT USAGE ON ALL SCHEMAS IN DATABASE citibike TO role purview_reader;
+GRANT USAGE ON ALL FUNCTIONS IN DATABASE citibike TO role purview_reader;
+GRANT USAGE ON ALL PROCEDURES IN DATABASE citibike TO role purview_reader;
+GRANT SELECT ON ALL TABLES IN DATABASE citibike TO role purview_reader;
+GRANT SELECT ON ALL VIEWS IN DATABASE citibike TO role purview_reader;
+GRANT USAGE, READ on ALL STAGES IN DATABASE citibike TO role purview_reader;
 
 //grant reader access to any future objects that could be created
-GRANT USAGE ON FUTURE SCHEMAS IN DATABASE snow_sample TO role purview_reader;
-GRANT USAGE ON FUTURE FUNCTIONS IN DATABASE snow_sample TO role purview_reader;
-GRANT USAGE ON FUTURE PROCEDURES IN DATABASE snow_sample TO role purview_reader;
-GRANT SELECT ON FUTURE TABLES IN DATABASE snow_sample TO role purview_reader;
-GRANT SELECT ON FUTURE VIEWS IN DATABASEsnow_sample TO role purview_reader;
-GRANT USAGE, READ ON FUTURE STAGES IN DATABASE snow_sample TO role purview_reader;
+GRANT USAGE ON FUTURE SCHEMAS IN DATABASE citibike TO role purview_reader;
+GRANT USAGE ON FUTURE FUNCTIONS IN DATABASE citibike TO role purview_reader;
+GRANT USAGE ON FUTURE PROCEDURES IN DATABASE citibike TO role purview_reader;
+GRANT SELECT ON FUTURE TABLES IN DATABASE citibike TO role purview_reader;
+GRANT SELECT ON FUTURE VIEWS IN DATABASE citibike TO role purview_reader;
+GRANT USAGE, READ ON FUTURE STAGES IN DATABASE citibike TO role purview_reader;
 ```
