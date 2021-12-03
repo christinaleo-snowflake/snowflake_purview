@@ -14,18 +14,20 @@
 
 ![CC3D4046-8F07-4058-8852-A7793428F42E_4_5005_c](https://user-images.githubusercontent.com/83224172/144637952-896d3eb9-35c1-4582-9efd-4b0807fe2dd4.jpeg)
 
-#### 5. Here is where you will enter the Snowflake username and password whose credentials will be used for the scan.
+#### 5. Here is where you will enter password that corresponds to the Snowflake user we set up in Module01.
 
 ```
-Name = PURVIEW
+Name = SnowflakePurviewUser
 Value = $tr0ngP@ssW0rdH3re!
 ```
 
-![BCE389A6-7A21-431B-9413-2FDA27D00B58](https://user-images.githubusercontent.com/83224172/144639036-43621a5e-d8d3-4908-b259-97b582e6872e.png)
+![6DB35837-3E31-4DC2-9904-E6BBE9D7707B](https://user-images.githubusercontent.com/83224172/144641681-4ef6551d-4e9d-4614-ae67-f94fec21f6f8.png)
+
 
 #### 6. Click _Create_ at the bottom of the window. You should see the secret you've just created appear in the list.
 
+![442D0444-97E5-41BD-8651-DF1220B7EAD0_4_5005_c](https://user-images.githubusercontent.com/83224172/144641838-71a0be70-d0b7-44d0-966d-4627713542b0.jpeg)
 
-![22E83486-261A-49CF-BAC5-2AD362A8CC67_4_5005_c](https://user-images.githubusercontent.com/83224172/144639889-8f0b4e0e-12f0-44bd-8a56-c332c66e0b64.jpeg)
+
 
 [Continue to next module . . .](../modules/module04.md)
