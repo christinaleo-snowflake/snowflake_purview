@@ -1,3 +1,4 @@
+[< Previous Module](../modules/module00.md) | [HOME](../README.md) | [Next Module >](../modules/module02.md)
 
 ## Set Up Your Snowflake Environment
 
