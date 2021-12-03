@@ -3,8 +3,7 @@
 
 For this lab, I will scan the CITIBIKE database in my Snowflake account. You will need to subsitute an appropriate database name for your account.
 
->You can [download the code here](https://github.com/christinaleo-snowflake/snowflake_purview/files/7650406/set_up_purview_access.txt).
->It is also available in the [code folder](../code/set_up_purview_access.sql) of this repository.
+>The full script is available in the [code folder](../code/set_up_purview_access.sql) of this repository.
 
 #### 1. Set up the `purview_reader` role. You will need _ACCOUNTADMIN_ rights to do this.
 ```
