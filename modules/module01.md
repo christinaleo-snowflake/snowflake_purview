@@ -1,2 +1,2 @@
 
-## Register Snowflake as a Data Source
+## Set Up Your Snowflake Environment
