@@ -32,7 +32,7 @@ Before we set up our first scan, let's just make sure the SHIR is connected prop
 
 ![5DEC2C7F-F9CF-43B1-988E-62582701F2FF_1_105_c](https://user-images.githubusercontent.com/83224172/144650218-b1c01eed-7366-4170-a940-ee7984855772.jpeg)
 
-3. Fill in the scan details.
+3. Fill in the scan details and click _Continue_.
  > - **Name:** Choose something meaningful
  > - **Connect via integration runtime:** Pick from the drop-down. The one we just checked in the previous section should appear.
  > - **Credential:** Select from the drop-down. The credential we set up in [Module 04](../modules/module04.md) should appear in the list.
@@ -44,3 +44,16 @@ Before we set up our first scan, let's just make sure the SHIR is connected prop
  > - **Database:** Enter the name of the database you wish to scan. 
  >    - This must be in _ALL CAPS_.
  >   - The default role assigned to the user specified in the credential **must** have adequate rights on the database objects. Please refer back to [Module 00](../modules/module00.md) for an explanation of how Purview connects to Snowflake.
+
+
+![6D93FC29-21A4-443D-ADDF-27C0A8B3C69F](https://user-images.githubusercontent.com/83224172/144653024-effaabef-004c-48dd-83ad-b1bf3c835220.png)
+
+4. Now, choose a scan trigger. You can scan on a regular schedule, or run a one-off scan. For this exercise, choose _Once_ and click _Continue_.
+
+![56DC7D51-9617-43AF-8313-A0B8FE1459EF](https://user-images.githubusercontent.com/83224172/144653336-f7e7535b-a6ce-4eca-97f4-302a35089c62.png)
+
+5. Finally, click _Save and run_.
+6. 
+![D84009B3-7754-46AE-9076-B446A4AFBB72](https://user-images.githubusercontent.com/83224172/144653525-e68562b3-a54c-4003-9a38-6b94060ff31a.png)
+
+
