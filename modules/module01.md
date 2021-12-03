@@ -33,6 +33,8 @@ CREATE OR REPLACE WAREHOUSE purview_wh WITH
 //grant rights to the warehouse -- !without this the connection to snowflake will fail immediately!
 GRANT USAGE ON WAREHOUSE purview_wh TO ROLE purview_reader;
 ```
+
+[Continue to next module . . .](../modules/module02.md)
 #### 3. Create the Purview USER.
 ```
 // now that there's a warehouse assigned to the role, we set up the purview USER
