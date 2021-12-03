@@ -25,4 +25,5 @@ Running `SHOW GRANTS TO ROLE purview_reader;` will further validate that the rol
 
 Now let's get our Snowflake credentials set up in Azure Key Vault.
 
-[Continue to next step . . .](../modules/module03.md)
+
+[Continue to next module . . .](../modules/module03.md)
