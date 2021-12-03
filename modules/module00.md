@@ -45,3 +45,5 @@ The access grants will need to be repeated for all the databases you wish to sca
   - Yes, but that's not currently an option.
 
 **Your Snowflake admins will likely have tooling in place to automate granting different levels of access to your databases. They might even already have a reader role set up and ready to go. Have a chat to them to see how they can help.**
+
+[Continue to next module . . .](../modules/module01.md)
