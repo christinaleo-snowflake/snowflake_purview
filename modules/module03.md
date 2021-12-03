@@ -6,7 +6,7 @@
 
 #### 2. Navigate to your Key Vault instance.
 
-#### 3. Click the _Secrets_ setting.
+#### 3. Click _Secrets_ under the Settings menu.
 
 ![88DC33C2-DA8E-44A8-AF3C-4E56E9678EE8](https://user-images.githubusercontent.com/83224172/144637634-ffe80dd7-bb95-41b4-8dd6-e24bcd7cff27.png)
 
