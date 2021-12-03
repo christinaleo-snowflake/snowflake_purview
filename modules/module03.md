@@ -23,6 +23,9 @@ Value = $tr0ngP@ssW0rdH3re!
 
 ![BCE389A6-7A21-431B-9413-2FDA27D00B58](https://user-images.githubusercontent.com/83224172/144639036-43621a5e-d8d3-4908-b259-97b582e6872e.png)
 
-#### 6. Click _Create_ at the bottom of the window.
+#### 6. Click _Create_ at the bottom of the window. You should see the secret you've just created appear in the list.
+
+
+![22E83486-261A-49CF-BAC5-2AD362A8CC67_4_5005_c](https://user-images.githubusercontent.com/83224172/144639889-8f0b4e0e-12f0-44bd-8a56-c332c66e0b64.jpeg)
 
 [Continue to next module . . .](../modules/module04.md)
