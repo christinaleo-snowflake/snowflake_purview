@@ -41,9 +41,9 @@ GRANT USAGE ON WAREHOUSE purview_wh TO ROLE purview_reader;
 // !default role is important here!
 
 CREATE OR REPLACE USER purview 
-    PASSWORD = '$tr0ngP@ssW0rdH3re!' 
-    DEFAULT_ROLE = "purview_reader" 
-    DEFAULT_WAREHOUSE = 'purview_wh'; 
+    PASSWORD = '$tr0ngP@ssW0rdH3re!'; 
+
+ALTER USER purview SET DEFAULT_ROLE = purview_reader;
     
 // add user to purview_reader role
 GRANT ROLE purview_reader TO USER purview;
