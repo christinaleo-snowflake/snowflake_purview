@@ -22,7 +22,7 @@ Some decisions need to be made about how you will manage Purview's access to Sno
 
 One solution to simplify the process and still maintain [security best practice](https://docs.snowflake.com/en/user-guide/security-access-control-considerations.html) is to create a USER specifically for Purview, assign a ROLE to that USER that has the required rights to all the current and future objects of the database to be scanned, and make sure that ROLE is set as the USER's default role.
 
->Code to set this up can be found [here](../code/reader_grants.sql)
+>Code to set this up can be found [here](../code/set_up_purview_access.sql)
 
 The access grants will need to be repeated for all the databases you wish to scan.
 
