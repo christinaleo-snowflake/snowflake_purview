@@ -1,3 +1,4 @@
+~~~
 //someone with account admin access must set up this part
 USE ROLE ACCOUNTADMIN;
 
@@ -53,3 +54,4 @@ GRANT USAGE ON FUTURE PROCEDURES IN DATABASE snow_sample TO role purview_reader;
 GRANT SELECT ON FUTURE TABLES IN DATABASE snow_sample TO role purview_reader;
 GRANT SELECT ON FUTURE VIEWS IN DATABASEsnow_sample TO role purview_reader;
 GRANT USAGE, READ ON FUTURE STAGES IN DATABASE snow_sample TO role purview_reader;
+~~~
