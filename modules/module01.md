@@ -8,7 +8,7 @@ You will need to subsitute an appropriate database name for your account.
 
 >The full script is available in the [code folder](../code/set_up_purview_access.sql) of this repository.
 
-#### 1. Set up the `purview_reader` role. You will need _ACCOUNTADMIN_ rights to do this.
+1. Set up the `purview_reader` role. You will need _ACCOUNTADMIN_ rights to do this.
 ```
 USE ROLE ACCOUNTADMIN;
 
@@ -19,7 +19,7 @@ CREATE OR REPLACE ROLE purview_reader;
 GRANT ROLE purview_reader TO ROLE sysadmin;
 ```
 
-#### 2. Create a warehouse for Purview to use.
+2. Create a warehouse for Purview to use.
 ```
 //create warehouse -- account admin required
 CREATE OR REPLACE WAREHOUSE purview_wh WITH 
@@ -35,7 +35,7 @@ CREATE OR REPLACE WAREHOUSE purview_wh WITH
 GRANT USAGE ON WAREHOUSE purview_wh TO ROLE purview_reader;
 ```
 
-#### 3. Create the Purview USER.
+3. Create the Purview USER.
 ```
 // now that there's a warehouse assigned to the role, we set up the purview USER
 // !default role is important here!
@@ -49,7 +49,7 @@ CREATE OR REPLACE USER purview
 GRANT ROLE purview_reader TO USER purview;
 ```
 
-#### 4. Grant reader rights to the database objects.
+4. Grant reader rights to the database objects.
 ```
 //grant reader access to all the database structures that purview can currently scan
 GRANT USAGE ON ALL SCHEMAS IN DATABASE citibike TO role purview_reader;
