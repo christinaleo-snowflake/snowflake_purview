@@ -33,14 +33,14 @@ Before we set up our first scan, let's just make sure the SHIR is connected prop
 ![5DEC2C7F-F9CF-43B1-988E-62582701F2FF_1_105_c](https://user-images.githubusercontent.com/83224172/144650218-b1c01eed-7366-4170-a940-ee7984855772.jpeg)
 
 3. Fill in the scan details.
-  - **Name:** Choose something meaningful
-  - **Connect via integration runtime:** Pick from the drop-down. The one we just checked in the previous section should appear.
-  - **Credential:** Select from the drop-down. The credential we set up in Module XX should appear in the list.
- 
-⚠️ &nbsp; **Pay close attention here . . .**
-  - **Warehouse:** Enter the warehouse name that will run the scan commands.
-    - This must be in _ALL CAPS_.
-    - The default role assigned to the user specified in the credential **must** have USAGE rights on this warehouse. If not, the scan will fail immediately. Please refer back to [Module 00](../modules/module00.md) for an explanation of how Purview connects to Snowflake.
-  - **Database:** Enter the name of the database you wish to scan. 
-     - This must be in _ALL CAPS_.
-    - The default role assigned to the user specified in the credential **must** have adequate rights on the database objects. Please refer back to [Module 00](../modules/module00.md) for an explanation of how Purview connects to Snowflake.
+ > - **Name:** Choose something meaningful
+ > - **Connect via integration runtime:** Pick from the drop-down. The one we just checked in the previous section should appear.
+ > - **Credential:** Select from the drop-down. The credential we set up in [Module 04](../modules/module04.md) should appear in the list.
+ >
+ >⚠️ &nbsp; **Pay close attention here . . .**
+ >  - **Warehouse:** Enter the warehouse name that will run the scan commands.
+ >    - This must be in _ALL CAPS_.
+ >    - The default role assigned to the user specified in the credential **must** have USAGE rights on this warehouse. If not, the scan will fail immediately. Please refer back to [Module 00](../modules/module00.md) for an explanation of how Purview connects to Snowflake.
+ > - **Database:** Enter the name of the database you wish to scan. 
+ >    - This must be in _ALL CAPS_.
+ >   - The default role assigned to the user specified in the credential **must** have adequate rights on the database objects. Please refer back to [Module 00](../modules/module00.md) for an explanation of how Purview connects to Snowflake.
