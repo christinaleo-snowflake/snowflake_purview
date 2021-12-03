@@ -1,3 +1,5 @@
+[< Previous Module](../modules/module03.md) | [HOME](../README.md) | [Next Module >](../modules/module05.md)
+
 ## Add the Snowflake Credentials to Purview
 
 1. Open your Puview Instance.
