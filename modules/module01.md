@@ -34,7 +34,6 @@ CREATE OR REPLACE WAREHOUSE purview_wh WITH
 GRANT USAGE ON WAREHOUSE purview_wh TO ROLE purview_reader;
 ```
 
-[Continue to next module . . .](../modules/module02.md)
 #### 3. Create the Purview USER.
 ```
 // now that there's a warehouse assigned to the role, we set up the purview USER
@@ -67,3 +66,6 @@ GRANT SELECT ON FUTURE TABLES IN DATABASE citibike TO role purview_reader;
 GRANT SELECT ON FUTURE VIEWS IN DATABASE citibike TO role purview_reader;
 GRANT USAGE, READ ON FUTURE STAGES IN DATABASE citibike TO role purview_reader;
 ```
+
+
+[Continue to next module . . .](../modules/module02.md)
