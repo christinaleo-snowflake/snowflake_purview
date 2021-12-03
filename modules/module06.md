@@ -1,3 +1,5 @@
+[< Previous Module](../modules/module04.md) | [HOME](../README.md) | [Next Module >](../modules/module06.md)
+
 
 First, let's make sure our Self Hosted Integration Runtime is connected properly. Go back to the [prerequisites](../README.md) if you missed this step.
 
