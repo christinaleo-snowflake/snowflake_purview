@@ -14,7 +14,7 @@
 
 ![CC3D4046-8F07-4058-8852-A7793428F42E_4_5005_c](https://user-images.githubusercontent.com/83224172/144637952-896d3eb9-35c1-4582-9efd-4b0807fe2dd4.jpeg)
 
-#### 5. Here is where you will enter password that corresponds to the Snowflake user we set up in Module01.
+#### 5. Here is where you will enter password that corresponds to the Snowflake user we set up in [Module 01](../modules/module01.md). Note that Name is the secret's name, not the user name.
 
 ```
 Name = SnowflakePurviewUser
