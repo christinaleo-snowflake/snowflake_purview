@@ -1,4 +1,4 @@
-## Connect Snowflake as a Data Source in Purview
+## Add the Snowflake Credentials to Purview
 
 1. Open your Puview Instance.
 
