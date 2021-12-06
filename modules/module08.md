@@ -34,5 +34,5 @@ It is possible to search for specific assests by using the search field at the t
 
 ![E4E61298-86E0-4A13-963F-76C9AF403F5A_1_105_c](https://user-images.githubusercontent.com/83224172/144845631-ae8743d7-d670-43ab-8b62-c91cc2b6bf89.jpeg)
 
-For detailed instructions on managing your data assets within Purview, please [refer to the documentation](https://docs.microsoft.com/en-us/azure/purview/).
-You will find [this tutoria](https://github.com/tayganr/purviewlab) quite useful as well. 
+For detailed instructions on managing your data assets within Purview, please [refer to the offical Microsoft documentation](https://docs.microsoft.com/en-us/azure/purview/).
+You will find [this tutorial](https://github.com/tayganr/purviewlab) quite useful as well. 
