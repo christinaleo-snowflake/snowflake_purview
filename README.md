@@ -2,6 +2,8 @@
 
 ## ‼️ Before You Start
 
+- You need a Snowflake account where you have ACCOUNTADMIN rights. [Register for a trial acccount.](https://signup.snowflake.com/)
+
 - You need an Azure account with an active subscription. [Create an account for free](https://azure.microsoft.com/free/?WT.mc_id=A261C142F).
 
 - You need an active [Purview resource](https://docs.microsoft.com/en-us/azure/purview/create-catalog-portal).
