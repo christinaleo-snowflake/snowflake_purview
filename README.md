@@ -30,6 +30,6 @@ The remainder of this document assumes that you have a working instance of Azure
 5. [Module 04 - Add Snowflake Credentials to Purview](https://github.com/christinaleo-snowflake/snowflake_purview/blob/main/modules/module04.md#add-the-snowflake-credentials-to-purview)
 6. [Module 05 - Add Snowflake as a Data Source](https://github.com/christinaleo-snowflake/snowflake_purview/blob/main/modules/module05.md#add-snowflake-as-a-data-source)
 7. [Module 06 - Set up a Database Scan](https://github.com/christinaleo-snowflake/snowflake_purview/blob/main/modules/module06.md#set-up-a-database-scan)
-8. [Module 07 - Monitor the Scan(https://github.com/christinaleo-snowflake/snowflake_purview/blob/main/modules/module07.md#monitor-the-scan)
+8. [Module 07 - Monitor the Scan](https://github.com/christinaleo-snowflake/snowflake_purview/blob/main/modules/module07.md#monitor-the-scan)
 9. [Module 08 - View the Scanned Assets]
 10. [Module 09 - Troubleshooting Tips]
