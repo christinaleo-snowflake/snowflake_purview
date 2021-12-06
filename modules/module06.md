@@ -1,4 +1,4 @@
-[< Previous Module](../modules/module04.md) | [HOME](../README.md) | [Next Module >](../modules/module06.md)
+[< Previous Module](../modules/module05.md) | [HOME](../README.md) | [Next Module >](../modules/module07.md)
 
 ## Set Up a Database Scan
 
