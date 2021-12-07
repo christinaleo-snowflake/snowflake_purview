@@ -32,4 +32,5 @@ The remainder of this document assumes that you have a working instance of Azure
 - [Module 06 - Set up a Database Scan](https://github.com/christinaleo-snowflake/snowflake_purview/blob/main/modules/module06.md#set-up-a-database-scan)
 - [Module 07 - Monitor the Scan](https://github.com/christinaleo-snowflake/snowflake_purview/blob/main/modules/module07.md#monitor-the-scan)
 - [Module 08 - View the Scanned Assets](https://github.com/christinaleo-snowflake/snowflake_purview/blob/main/modules/module08.md#view-the-scanned-assets)
+- [Module 09 - Troubleshooting Tips](https://github.com/christinaleo-snowflake/snowflake_purview/blob/main/modules/module09.md#troubleshooting-tips)
 
