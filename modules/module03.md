@@ -1,4 +1,4 @@
-[< Previous Module](../modules/module02.md) | [HOME](../README.md) | [Next Module >](../modules/module04.md)
+[< Previous Module](../modules/module02.md) | [HOME](https://github.com/christinaleo-snowflake/snowflake_purview) | [Next Module >](../modules/module04.md)
 
 ## Add Snowflake Credentials to Azure Key Vault
 
