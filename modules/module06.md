@@ -57,3 +57,4 @@ Before we set up our first scan, let's just make sure the SHIR is connected prop
 ![D84009B3-7754-46AE-9076-B446A4AFBB72](https://user-images.githubusercontent.com/83224172/144653525-e68562b3-a54c-4003-9a38-6b94060ff31a.png)
 
 
+[Continue to next module . . .](../modules/module07.md)
