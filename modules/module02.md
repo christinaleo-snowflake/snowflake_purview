@@ -1,4 +1,4 @@
-[< Previous Module](../modules/module01.md) | [HOME](../README.md) | [Next Module >](../modules/module03.md)
+[< Previous Module](../modules/module01.md) | [HOME](https://github.com/christinaleo-snowflake/snowflake_purview) | [Next Module >](../modules/module03.md)
 
 ## Validate Your Setup
 
