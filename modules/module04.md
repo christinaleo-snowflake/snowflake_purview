@@ -1,4 +1,4 @@
-[< Previous Module](../modules/module03.md) | [HOME](../README.md) | [Next Module >](../modules/module05.md)
+[< Previous Module](../modules/module03.md) | [HOME](https://github.com/christinaleo-snowflake/snowflake_purview) | [Next Module >](../modules/module05.md)
 
 ## Add the Snowflake Credentials to Purview
 
