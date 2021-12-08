@@ -1,3 +1,4 @@
+[< Previous Module](../modules/module07.md) | [HOME](../README.md)
 
 # Troubleshooting Tips
 - Check your account identifer in the source registration step. Leave off the `HTTPS://` bit at the front.
@@ -9,3 +10,5 @@
   - If there's a problem with the account identifer or password, you won't see any activity at all
   - If there's a problem with the default role, you should at least see a `USE WAREHOUSE . . .` statement.
   - Using the `QUERY_HISTORY_BY_USER` [table function](https://docs.snowflake.com/en/sql-reference/functions/query_history.html) will help you identify what role is being used by the connection. Setting up a dedicated Purview User will make troubleshooting a lot easier.
+
+[Return to the start](https://github.com/christinaleo-snowflake/snowflake_purview)
