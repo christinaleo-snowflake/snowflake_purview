@@ -1,4 +1,4 @@
-[< Previous Module](../modules/module07.md) | [HOME](../README.md) | [Next Module >](../modules/module09.md)
+[< Previous Module](../modules/module07.md) | [HOME](https://github.com/christinaleo-snowflake/snowflake_purview) | [Next Module >](../modules/module09.md)
 
 # View the Scanned Assets
 
