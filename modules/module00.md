@@ -1,4 +1,4 @@
-[HOME](../README.md) | [Next Module >](../modules/module01.md)
+[HOME](https://github.com/christinaleo-snowflake/snowflake_purview) | [Next Module >](../modules/module01.md)
 
 # Understanding How Purview Connects to Snowflake
 The Purview connector takes several parameters during setup to allow it to perform scans of the Snowflake metadata. *USER NAME* and *PASSWORD* are provided through integration with the [Azure Key Vault](https://github.com/tayganr/purviewlab/blob/main/modules/module02b.md#1-key-vault-access-policy-1-grant-yourself-access). You are then able to specify the *WAREHOUSE* you wish to use and the *DATABASE* you’d like to scan. Optionally, you can further scope your scan to an individual schema.
