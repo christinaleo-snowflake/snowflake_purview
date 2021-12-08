@@ -27,3 +27,5 @@ In the case of a failed scan, some error information can be obtained by clicking
 Another way to monitor progress is to observe the Query History tab in the Snowflake UI.
 
 ![B36EFD6A-E359-44D9-A145-D0A5D2BA960B_1_105_c](https://user-images.githubusercontent.com/83224172/144841476-6e2bddc0-ebb0-42b2-be79-2b8d68f5fdf8.jpeg)
+
+[Continue to next module . . .](../modules/module08.md)
