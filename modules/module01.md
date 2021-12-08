@@ -1,4 +1,4 @@
-[< Previous Module](../modules/module00.md) | [HOME](../README.md) | [Next Module >](../modules/module02.md)
+[< Previous Module](../modules/module00.md) | [HOME](https://github.com/christinaleo-snowflake/snowflake_purview) | [Next Module >](../modules/module02.md)
 
 ## Set Up Your Snowflake Environment
 
