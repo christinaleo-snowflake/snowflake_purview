@@ -1,4 +1,4 @@
-[< Previous Module](../modules/module05.md) | [HOME](../README.md) | [Next Module >](../modules/module07.md)
+[< Previous Module](../modules/module05.md) | [HOME](https://github.com/christinaleo-snowflake/snowflake_purview) | [Next Module >](../modules/module07.md)
 
 ## Set Up a Database Scan
 
