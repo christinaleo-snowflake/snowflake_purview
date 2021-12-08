@@ -1,4 +1,4 @@
-[< Previous Module](../modules/module04.md) | [HOME](../README.md) | [Next Module >](../modules/module06.md)
+[< Previous Module](../modules/module04.md) | [HOME](https://github.com/christinaleo-snowflake/snowflake_purview) | [Next Module >](../modules/module06.md)
 
 ## Add Snowflake as a Data Source
 
