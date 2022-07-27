@@ -14,7 +14,7 @@
 
 3. Fill in the scan details and click _Continue_.
  > - **Name:** Choose something meaningful
- > - **Connect via integration runtime:** Pick from the drop-down. The one we just checked in the previous section should appear.
+ > - **Connect via integration runtime:** Pick from the drop-down. You can use either your own [Self-Hosted Integration Runtime](https://techcommunity.microsoft.com/t5/microsoft-purview/installing-latest-version-of-azure-purview-shir-self-hosted/m-p/2663833#M201) or the [Azure Integrated Runtime](https://techcommunity.microsoft.com/t5/microsoft-purview-blog/azure-integration-runtime-supports-scanning-more-source-types/ba-p/3254148).
  > - **Credential:** Select from the drop-down. The credential we set up in [Module 04](../modules/module04.md) should appear in the list.
  >
  >⚠️ &nbsp; **Pay close attention here . . .**
